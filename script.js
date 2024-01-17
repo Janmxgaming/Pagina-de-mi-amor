@@ -8,6 +8,30 @@ function iniciarAnimacion() {
 
     var message = document.getElementById('message');
     var textoCompleto = `
+        // ... (tu texto existente)
+        
+        ¿Te gustaría comprometerte conmigo?
+        <button onclick="responderCompromiso('si')">Sí</button>
+        <button onclick="responderCompromiso('no')">No</button>
+    `;
+
+    escribirTexto(message, textoCompleto);
+}
+
+function responderCompromiso(respuesta) {
+    if (respuesta === 'si') {
+        // Aquí puedes implementar el código para enviar notificación push a tu dispositivo
+        // y cualquier otra acción relacionada con un "Sí".
+        alert('¡Notificación enviada!');
+
+    } else if (respuesta === 'no') {
+        // En caso de "No", mostrar una bromita
+        alert('Botón equivocado 😄');
+    }
+}
+
+    var message = document.getElementById('message');
+    var textoCompleto = `
 Hola mi niña, aquí estoy entregándote este regalo que desde hace mucho tiempo quería hacer, pero no tenía la experiencia. Ahora que estoy aquí, quiero agradecerte por ser mi amada mujer durante este año y dos meses. Gracias por estar en las buenas y en las malas, por ser siempre ese sol que me ilumina, así tal cual como lo puedes apreciar en las mañanas iluminando las florecitas del jardín.
 
 Gracias por fortalecerme y hacerme amar como nunca antes lo había hecho. Eres mi vida entera, y deseo y le pido mucho a Dios que nos otorgue el amor por toda la eternidad, como tanto lo hemos soñado. También quiero decirte que me siento afortunado de tenerte, de compartir nuestros sueños y, lo más importante, entregarnos como dos almas que, a pesar de la distancia, estamos ahí, unidos espiritualmente.
@@ -19,6 +43,7 @@ Te amooo. ❤️❤️❤️❤️❤️
 
     escribirTexto(message, textoCompleto);
 }
+
 
 function botonEquivocado() {
     alert('Botón equivocado 😡, ¿Quién te dijo que era presionar no? Precionale Siiii con todo tu corazón, mi vida el te amaaaaa 🫶');
