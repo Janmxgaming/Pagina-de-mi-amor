@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Regalo Especial</title>
+</head>
+<body>
+    <div id="intro-screen">
+        <div id="intro-text" class="container">
+            <p>Hola Lizeth, Soy el asistente de Ángel, me llamo Inzaghi, ¡un placer! Él me comentó que tiene un regalo para ti... ¿Estás lista?</p>
+            <button onclick="iniciarAnimacion()">Si</button>
+            <button onclick="botonEquivocado()">No</button>
+        </div>
+    </div>
+
+    <div id="main-screen" class="hidden">
+        <div class="container">
+            <iframe id="music-player" src="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <img src="amorcito.jpg" alt="amorcito" id="tu-foto" style="float: right; margin-left: 10px;">
+
+        </div>
+        
+        <div id="flowers"></div>
+        <div id="hearts"></div>
+
+        <div class="container">
+            <div id="heart" onclick="animarCorazon()">❤️</div>
+            <div id="message"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
