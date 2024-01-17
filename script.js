@@ -17,8 +17,7 @@ Te amo con todo mi corazón, con toda mi alma, con todo mi ser. Eres mi motivo d
 Te amooo. ❤️❤️❤️❤️❤️
 
 ¿Te gustaría comprometerte conmigo?
-<button onclick="responderCompromiso('si')">Sí</button>
-<button onclick="responderCompromiso('no')">No</button>
+
 `;
 
     escribirTexto(message, textoCompleto);
