@@ -14,14 +14,14 @@ Gracias por fortalecerme y hacerme amar como nunca antes lo había hecho. Eres m
 
 Te amo con todo mi corazón, con toda mi alma, con todo mi ser. Eres mi motivo de sonreír, de ser una mejor persona cada día. Darlo todo por ti es mi mayor anhelo. Aprovecho para prometer ante Diosito siempre estar ahí cuando más me necesites, cuidarte, amarte y respetarte hasta la eternidad. Estar ahí para abrazarte, besarte, mimarte, hacerte sentir tan feliz como lo mereces, cumplir tus deseos, sorprenderte siempre con detalles, amarte y enamorarte cada día más.
 
-Te amooo.
+Te amooo. ❤️❤️❤️❤️❤️
 `;
 
     escribirTexto(message, textoCompleto);
 }
 
 function botonEquivocado() {
-    alert('Botón equivocado 😠');
+    alert('Botón equivocado 😡, ¿Quién te dijo que era presionar no? Precionale Siiii con todo tu corazón, mi vida el te amaaaaa 🫶');
 }
 
 function animarFlores() {
