@@ -37,7 +37,7 @@ function responderCompromiso(respuesta) {
 }
 
 function botonEquivocado() {
-    alert('Botón equivocado 😡, ¿Quién te dijo que era presionar no? Precionale Siiii con todo tu corazón, mi vida el te amaaaaa 🫶');
+    alert('Botón equivocado 😡, ¿Quién te dijo que era presionar no? ¡Precionale Siiii con todo tu corazón! mi vida, el te amaaaaa 🫶');
 }
 
 function animarFlores() {
