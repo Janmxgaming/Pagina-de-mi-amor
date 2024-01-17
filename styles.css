@@ -103,10 +103,6 @@ button:hover {
     margin: 0 auto; /* Agregado: Centrar el texto */
 }
 
-audio {
-    margin-top: 20px;
-}
-
 .hidden {
     display: none;
 }
