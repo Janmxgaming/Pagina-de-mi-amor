@@ -61,7 +61,7 @@ function escribirTexto(elemento, texto) {
             elemento.innerHTML += texto.charAt(indice);
             indice++;
 
-            setTimeout(escribir, Math.floor(Math.random() * 50) + 10); // Ajusta la velocidad de escritura según tu preferencia
+            setTimeout(escribir, Math.floor(Math.random() * 100) + 20); // Ajusta la velocidad de escritura según tu preferencia
 
             // Añadido: Desvanecer una línea al final del texto
             if (indice === texto.length) {
